@@ -1,0 +1,6 @@
+*.json
+*.jsonl
+
+checkpoints/
+gist_adapters/
+__pycache__/
