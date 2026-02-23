@@ -5,7 +5,7 @@ from train_dge_final import HierarchicalDGE, ChunkDataset, efficient_collate_fn
 from torch.utils.data import DataLoader
 import os
 
-# Update to match your actual last epoch
+# Update to match your actual last epoch 
 CHECKPOINT = "checkpoints/dge_epoch_14.pt"
 DATA_FILE = "chunks.jsonl"
 OUTPUT_FILE = "gist_codes.jsonl"
